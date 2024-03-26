@@ -33,24 +33,29 @@ int main(){
     {
         cout << "Kalkulator sederhana" << endl;
         cout << "======================" << endl;
-        cout << "1. Penjumalahan" << endl;
-        cout << "2. Pengurangan " << endl;
-        cout << "3. Perkalian " << endl;
-        cout << "4. Pembagian "<< endl;
-        cout << "5. Keluar" <<endl;
+        cout << "1. penjumalahan" << endl;
+        cout << "2. pengurangan " << endl;
+        cout << "3. perkalian " << endl;
+        cout << "4. pembagian "<< endl;
+        cout << "5. keluar" <<endl;
         cout <<"================" << endl;
         cin >>pilihan;
         
         switch (pilihan)
 
          case 1:
-         inputData();
-         cout <<"Hasil Penjumlahan =" <<penjumlahan(bilangan1, bilangan2) <<endl;
-         break;
+            inputData();
+            cout <<"Hasil penjumlahan =" << penjumlahan(bilangan1, bilangan2) <<endl;
+            break;
          case 2:
-         inputData();
-         cout <<"Hasil pengurangan =" <<pengurangan(bilangan1, bilangan2) <<endl;
-         break;
+            inputData();
+            cout <<"Hasil pengurangan =" << pengurangan(bilangan1, bilangan2) <<endl;
+            break;
+         case 3:
+            inputData();
+            cout <<"Hasil perkalian =" <<perkalian(bilangan1, bilangan2)
+            break;
+            
         /* code */
     } while (/* condition */);
     
