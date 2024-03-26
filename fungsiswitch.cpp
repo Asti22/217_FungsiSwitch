@@ -42,6 +42,11 @@ int main(){
         cin >>pilihan;
         
         switch (pilihan)
+
+         case 1:
+         inputData();
+         cout <<"Hasil Penjumlahan =" <<penjumlahan(bilangan1, bilangan2) <<endl;
+         break;
         /* code */
     } while (/* condition */);
     
