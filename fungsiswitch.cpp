@@ -27,7 +27,8 @@ float pembagian(int a,int b)
     return a / b;
 }
 
-int main(){
+int main()
+{
     int pilihan;
     do
     {
@@ -41,7 +42,7 @@ int main(){
         cout <<"================" << endl;
         cin >>pilihan;
         
-        switch (pilihan)
+        switch (pilihan) {
 
          case 1:
             inputData();
@@ -53,11 +54,22 @@ int main(){
             break;
          case 3:
             inputData();
-            cout <<"Hasil perkalian =" <<perkalian(bilangan1, bilangan2)
+            cout <<"Hasil perkalian =" <<perkalian(bilangan1, bilangan2) <<endl;
             break;
-            
+        case 4:
+            inputData();
+            cout <<"Hasil pembagian =" <<pembagian(bilangan1, bilangan2) <<endl;
+            break;
+        case 5:
+            break;
+
+        default:
+           cout <<"pilihan tidak ada <<endl;" <<endl;
+           break;
+
+
         /* code */
-    } while (/* condition */);
-    
+    } while (pilihan !=5);
+    }   
 }
 
